@@ -92,6 +92,7 @@ const TodoList = () => {
     setNewCategory(task.category);
     setNewDueDate(task.dueDate);
     setNewDueTime(task.dueTime);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const cancelEditing = () => {
